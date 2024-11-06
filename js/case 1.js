@@ -16,19 +16,9 @@ let arrRotate = () => {
   h_5.text(arr[4]);
   h_6.text(arr[5]);
 };
+
 $(document).ready(function () {
   setInterval(arrRotate, 3000);
 });
 
 let interval;
-
-btnStart.on("click", function () {
-  interval = setInterval(arrRotate, 3000);
-  btnStart.css("display", "none");
-  btnEnd.css("display", "block");
-});
-btnEnd.on("click", function () {
-  clearInterval(interval);
-  btnStart.css("display", "block");
-  btnEnd.css("display", "none");
-});

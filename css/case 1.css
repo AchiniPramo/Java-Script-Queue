@@ -46,27 +46,6 @@ h1 {
   top: calc(100% - 300px);
   color: #6b2172;
   font-size: 3rem;
-  padding: 20px;
+  margin-left: 110px;
   position: relative;
 }
-
-/* button {
-  width: 150px;
-  height: 40px;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 10px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 100px;
-  color: #070f3d;
-  border: none;
-}
-#btn-start {
-  background-color: #2a9364;
-}
-#btn-end {
-  background-color: #6b2172;
-} */

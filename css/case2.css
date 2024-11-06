@@ -1,0 +1,51 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 100px;
+}
+
+main {
+  width: 65vw;
+  height: 50vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+div {
+  width: 15%;
+  height: 60%;
+  background-color: pink;
+  border-radius: 10px;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  gap: 20px;
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
