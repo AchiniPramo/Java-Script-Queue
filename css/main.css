@@ -132,3 +132,73 @@ footer {
   backdrop-filter: blur(15px);
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  header .description {
+    font-size: 16px;
+  }
+
+  .case-box .buttons a {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  header p,
+  header .description {
+    font-size: 14px;
+  }
+
+  .case-box .label {
+    font-size: 12px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .case-box .buttons a {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+
+  .case-box .label {
+    font-size: 10px;
+    padding: 8px;
+  }
+}
